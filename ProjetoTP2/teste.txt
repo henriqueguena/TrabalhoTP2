@@ -1,0 +1,3 @@
+Este é um exemplo de arquivo de texto para testar o código Scala de contagem de frequência de palavras.
+Ele contém várias frases e palavras repetidas para que possamos verificar se a contagem de frequência está funcionando corretamente.
+Espero que isso ajude no teste do código!

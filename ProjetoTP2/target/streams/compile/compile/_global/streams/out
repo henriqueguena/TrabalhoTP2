@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Henrique\ProjetoTP2\TrabalhoTP2.scala:5:32: not found: value Source[0m
+[0m[[0m[31merror[0m] [0m[0m  val stopWords: Set[String] = Source.fromFile("../stopwords.txt").getLines.mkString.split(",").toSet[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Henrique\ProjetoTP2\TrabalhoTP2.scala:22:41: value update is not a member of Map[String,Int][0m
+[0m[[0m[31merror[0m] [0m[0m          case Some(count) => wordFreqs.update(word, count + 1)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Henrique\ProjetoTP2\TrabalhoTP2.scala:23:24: value update is not a member of Map[String,Int][0m
+[0m[[0m[31merror[0m] [0m[0m          case None => wordFreqs(word) = 1[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Henrique\ProjetoTP2\TrabalhoTP2.scala:42:39: not found: value Source[0m
+[0m[[0m[31merror[0m] [0m[0m    val words = wordPattern.findAllIn(Source.fromFile(args(0)).mkString.toLowerCase).toList[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
